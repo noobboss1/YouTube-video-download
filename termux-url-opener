@@ -128,7 +128,7 @@ case $option in
 
 	6)
 
-	echo "$command \"best[height<=2160]\"" > ~/.config/youtube-dl/config #option 6
+	echo "$command \"best[height<=2160]\"" > ~/.config/youtube-dl/config
 
     	youtube-dl $1
 
