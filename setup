@@ -1,0 +1,51 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# Coder: R.U.R. HaXoR
+pkg install pv -y; pip2 install lolcat
+clear
+echo "
+████████╗███████╗██████╗ ███╗   ███╗██╗   ██╗██╗  ██╗
+╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║   ██║╚██╗██╔╝
+   ██║   █████╗  ██████╔╝██╔████╔██║██║   ██║ ╚███╔╝
+   ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║   ██║ ██╔██╗
+   ██║   ███████╗██║  ██║██║ ╚═╝ ██║╚██████╔╝██╔╝╚██╗
+   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝
+
+ ██╗  ██╗██╗   ██╗███╗  ██╗████████╗███████╗██████╗
+ ██║  ██║██║   ██║████╗ ██║╚══██╔══╝██╔════╝██╔══██╗
+ ███████║██║   ██║██╔██╗██║   ██║   █████╗  ██████╔╝
+ ██╔══██║██║   ██║██║╚████║   ██║   ██╔══╝  ██╔══██╗
+ ██║  ██║╚██████╔╝██║ ╚███║   ██║   ███████╗██║  ██║
+ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+                  TERMUX HUNTER BD
+
+                      SETUP TOOL"|lolcat                                                                    
+echo -e "\e[032m________________________________"
+echo -e "\e[032m| Coder---> R.U.R. HaXoR.       |"|pv -qL 15
+echo -e "\e[032m| Github: github.com/noobboss1  |"|pv -qL 15
+echo -e "\e[032m| FB: m.me/R.U.R.HaXoR6939      |"|pv -qL 15
+echo -e "\e[032m| FB: m.me/Noob.Boss.THBD       |"|pv -qL 15
+echo -e "\e[032m|_______________________________|"|pv -qL 15
+echo -e "\e[036m"
+xdg-open https://www.facebook.com/Noob.Boss.THBD/
+read -p "Do you want to setup this tool?(y/n)~~~>  " yesno
+if [ $yesno = y ] || [ $yesno = y ]
+then
+apt update && apt upgrade -y
+termux-setup-storage
+pkg install python -y
+pip install youtube-dl
+mkdir ~/storage/shared/YTDownloads
+mkdir -p ~/.config/youtube-dl
+mkdir ~/bin
+mv termux-url-opener ~/bin/
+xdg-open https://www.facebook.com/R.U.R.HaXoR6939/
+#chmod +x ~/bin/termux-url-opener
+echo -e "\e[035mSetup Done. Now, you go to the song of your choice on YouTube and click on <Share>. Then, choose <Termux>."|pv -qL 10
+fi
+if [ $yesno = n ] || [ $yesno = n ]
+then
+clear
+figlet "EXIT"|lolcat
+xdg-open https://www.facebook.com/R.U.R.HaXoR6939/
+exit
+fi
