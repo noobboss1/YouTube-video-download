@@ -13,3 +13,7 @@
 <h1>Video Quality List</h1>
 
 <h3>{1}~~~> 𝑴𝒖𝒔𝒊𝒄 𝑴𝒑3<br>{2}~~~> 𝑽𝒊𝒅𝒆𝒐 360𝒑<br>{3}~~~> 𝑽𝒊𝒅𝒆𝒐 480𝒑<br>{4}~~~> 𝑽𝒊𝒅𝒆𝒐 720𝒑<br>{5}~~~> 𝑽𝒊𝒅𝒆𝒐 1080𝒑<br>{6}~~~> 𝑽𝒊𝒅𝒆𝒐 2160𝒑</h3>
+
+<h1>Video</h1>
+
+[![asciicast](https://asciinema.org/a/y3T0mjvNwwBsKqPy6pZbUWa03.svg)](https://asciinema.org/a/y3T0mjvNwwBsKqPy6pZbUWa03)
